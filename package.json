@@ -1,0 +1,24 @@
+{
+  "name": "parcel-quickstart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build --no-cache --public-url / src/index.html",
+    "clear-build-cache": "rm -rf .cache/ dist/",
+    "prestart": "npm run clear-build-cache",
+    "start": "parcel src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^9.5.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.15.3",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "parcel-bundler": "^1.12.3",
+    "sass": "^1.17.3"
+  }
+}
